@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #e5ecf4;
+  min-height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  background-color: #115d9d;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.login {
+  display: block;
+  margin-top: 30px;
+  padding: 20px;
+  border-style: solid;
+  width: 200px;
+  border-width: 2px;
+  border-color: #115d9d;
+  background-color: #fff;
+}
+
+.login-title {
+  text-align: center;
+  border-bottom: solid 2px;
+  color: #115d9d;
+}
+
+.name {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.note {
+  font-size: 10px;
+}
+
+.btn {
+  margin-left: 30%;
+  margin-top: 30px;
+  padding: 8px;
+  color: aliceblue;
+  background-color: #337dba;
+  border: none;
+  border-radius: 8px;
+}
+
+.content {
+  position: sticky;
+  top: 100%;
+  padding-top: 20px;
+  border-top: solid 1px;
+  text-align: center;
+  background-color: #fff;
+  font-size: smaller;
+  padding-bottom: 10px;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-size: 35px;
+  color: red;
+}
+tbody {
+  border-top: 1px solid #ccc;
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
